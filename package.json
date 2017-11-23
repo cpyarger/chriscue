@@ -1,0 +1,22 @@
+{
+  "name": "cpcuemgr",
+  "version": "1.0.0",
+  "description": "Chris's Cue Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cpyarger/chriscue"
+  },
+  "keywords": [
+    "NodeJS",
+    "Circus",
+    "Automatic",
+    "Show",
+    "management"
+  ],
+  "author": "Christopher P. Yarger <cpyarger@gmail.com>",
+  "license": "GPL-3.0"
+}
