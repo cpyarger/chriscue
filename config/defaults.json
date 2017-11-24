@@ -1,0 +1,11 @@
+{
+  "devices": {
+    "netdevices": {
+      "1": {
+        "channels": {
+          "R": 0
+        }
+      }
+    }
+  }
+}

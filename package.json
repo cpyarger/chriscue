@@ -18,5 +18,19 @@
     "management"
   ],
   "author": "Christopher P. Yarger <cpyarger@gmail.com>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "color": "^2.0.1",
+    "colors": "^1.1.2",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "gradient": "^0.2.0",
+    "nconf": "^0.9.1",
+    "nodemon": "^1.12.1",
+    "serialport": "^6.0.4",
+    "sleep": "^5.1.1",
+    "tinygradient": "^0.3.1"
+  }
 }

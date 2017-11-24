@@ -1,0 +1,72 @@
+{
+  "devices": {
+    "netdevices": {
+      "1": {
+        "host": "192.168.42.152",
+        "name": "TestLED",
+        "port": 23,
+        "deviceType": "ESP32-3Chan",
+        "channels": {
+          "R": 1000,
+          "G": 36000,
+          "B": 65535
+        }
+      },
+      "2": {
+        "host": "192.168.42.153",
+        "name": "TestLED2",
+        "port": 23,
+        "deviceType": "ESP32-12Chan",
+        "channels": {
+          "R1": 0,
+          "G1": 0,
+          "B1": 0,
+          "R2": 0,
+          "G2": 0,
+          "B2": 0,
+          "R3": 0,
+          "G3": 0,
+          "B3": 0,
+          "R4": 0,
+          "G4": 0,
+          "B4": 0
+        }
+      },
+      "3": {
+        "host": "192.168.42.154",
+        "name": "LightArm1",
+        "port": 23,
+        "deviceType": "RGB LightArm",
+        "channels": {
+          "R": 0,
+          "G": 0,
+          "B": 0
+        },
+        "servos": {
+          "1": {
+            "min": 0,
+            "max": 255,
+            "value": 128
+          },
+          "2": {
+            "min": 0,
+            "max": 255,
+            "value": 128
+          },
+          "3": {
+            "min": 0,
+            "max": 255,
+            "value": 128
+          }
+        }
+      }
+    },
+    "Serial Devices": {
+      "SpotLight": {
+        "name": "Grow Light",
+        "port": "/dev/ttyUSB2",
+        "deviceType": "NanoSpot"
+      }
+    }
+  }
+}
