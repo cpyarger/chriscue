@@ -27,3 +27,5 @@ console.log(lights[1].getchan())
 y.on('data', function(data){console.log(data.toString('utf-8'))})
 
 lights[1].send(10000,10000,10000)
+console.log('hello')
+y.destroy();
